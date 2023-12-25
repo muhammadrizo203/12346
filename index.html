@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  
+    <link rel="stylesheet" href="css/styel.css">
+</head>
+<body>
+    
+     <header>
+            <nav>
+                <div class="navdiv">
+                    <img src="https://texnomart.uz/_nuxt/img/texnomart-logo_new_year.35f5572.svg" alt="texnomart" title="texnomart" width="230" height="38">
+                    <button id="button" class="header-catalog-btn 1024:block hidden"><span class="catalog__icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M17.2917 16.25H2.70842C2.1331 16.25 1.66675 15.7836 1.66675 15.2083C1.66675 14.6331 2.1331 14.1667 2.70842 14.1667H17.2917C17.867 14.1667 18.3334 14.6331 18.3334 15.2083C18.3334 15.7836 17.867 16.25 17.2917 16.25ZM17.2917 11.0417H2.70842C2.1331 11.0417 1.66675 10.5753 1.66675 10C1.66675 9.42474 2.1331 8.95836 2.70842 8.95836H17.2917C17.867 8.95836 18.3334 9.42471 18.3334 10C18.3334 10.5753 17.867 11.0417 17.2917 11.0417ZM17.2917 5.83334H2.70842C2.1331 5.83334 1.66675 5.36699 1.66675 4.79167C1.66675 4.21635 2.1331 3.75 2.70842 3.75H17.2917C17.867 3.75 18.3334 4.21635 18.3334 4.79167C18.3334 5.36699 17.867 5.83334 17.2917 5.83334Z" fill="#333333"></path></svg></span> <span class="catalog__icon" style="display: none;"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none"><path d="M11.1753 10.5389L15.5919 6.13056C15.7489 5.97364 15.837 5.76081 15.837 5.53889C15.837 5.31697 15.7489 5.10414 15.5919 4.94722C15.435 4.79031 15.2222 4.70215 15.0003 4.70215C14.7784 4.70215 14.5655 4.79031 14.4086 4.94722L10.0003 9.36389L5.59194 4.94722C5.43502 4.79031 5.22219 4.70215 5.00027 4.70215C4.77836 4.70215 4.56553 4.79031 4.40861 4.94722C4.25169 5.10414 4.16353 5.31697 4.16353 5.53889C4.16353 5.76081 4.25169 5.97364 4.40861 6.13056L8.82527 10.5389L4.40861 14.9472C4.3305 15.0247 4.26851 15.1169 4.2262 15.2184C4.18389 15.32 4.16211 15.4289 4.16211 15.5389C4.16211 15.6489 4.18389 15.7578 4.2262 15.8594C4.26851 15.9609 4.3305 16.0531 4.40861 16.1306C4.48608 16.2087 4.57824 16.2707 4.67979 16.313C4.78134 16.3553 4.89026 16.3771 5.00027 16.3771C5.11028 16.3771 5.21921 16.3553 5.32076 16.313C5.4223 16.2707 5.51447 16.2087 5.59194 16.1306L10.0003 11.7139L14.4086 16.1306C14.4861 16.2087 14.5782 16.2707 14.6798 16.313C14.7813 16.3553 14.8903 16.3771 15.0003 16.3771C15.1103 16.3771 15.2192 16.3553 15.3208 16.313C15.4223 16.2707 15.5145 16.2087 15.5919 16.1306C15.67 16.0531 15.732 15.9609 15.7744 15.8594C15.8167 15.7578 15.8384 15.6489 15.8384 15.5389C15.8384 15.4289 15.8167 15.32 15.7744 15.2184C15.732 15.1169 15.67 15.0247 15.5919 14.9472L11.1753 10.5389Z" fill="black"></path></svg></span> <span class="catalog__text">Каталог</span></button>
+                </div>
+                <div class="navdiv1">
+                     <input class="input"  type=""b placeholder="🔍Қидириш"  >
+                </div>
+                <div class="navdiv2">
+                    <div class="divnav4">
+                        <ul>
+                         <li>
+                             <button type="button" class="btn position-relative">
+                                 <i class="fa-regular fa-user"></i> Kirish
+                               </button>
+                         </li>
+                         <li>
+                             <button  type="button" class="btn position-relative">
+                                 <i class="fa-regular fa-heart"></i> <span>Saralangan</span>
+                                 <span id="span2" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                   0
+                                 </span>
+                               </button>
+                         </li>
+                         <li>
+                             <button type="button" class="btn position-relative">
+                             <i class="fa-solid fa-bag-shopping"></i> Savat
+                             <span id="span1" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                               0
+                               
+                             </span>
+                           </button></li>    
+                        </ul>
+                     </div>
+                </div>
+            </nav>
+     </header>
+
+     <main>
+         <div class="div">
+              <h2 class="w-bold f-20 f-24-md">Янги маҳсулотлар</h2>
+         </div>
+         <div class="div2">
+              <div class="div1">
+                 <img id="img" src="" alt="">
+                 <button onclick="qush()"><i class="fa-solid fa-cart-shopping"></i></button>
+                 <button onclick="yoz()"><i class="fa-regular fa-heart"></i></button>
+                 <p id="p"></p>
+              </div>
+              <div class="div1">
+                  <img id="img1" src="" alt="">
+                  <button onclick="qush()"><i class="fa-solid fa-cart-shopping"></i></button>
+                  <button onclick="yoz()"><i class="fa-regular fa-heart"></i></button>
+                  <p id="p1"></p>
+              </div>
+              <div class="div1">
+                   <img id="img2" src="" alt="">
+                   <button onclick="qush()"><i class="fa-solid fa-cart-shopping"></i></button>
+                   <button onclick="yoz()"><i class="fa-regular fa-heart"></i></button>
+                   <p id="p2"></p>
+              </div>
+              <div class="div1">
+                    <img id="img3" src="" alt="">
+                    <button onclick="qush()"><i class="fa-solid fa-cart-shopping"></i></button>
+                    <button onclick="yoz()"><i class="fa-regular fa-heart"></i></button>
+                    <p id="p3"></p>
+              </div>
+              <div class="div1">
+                     <img id="img4" src="" alt="">
+                     <button onclick="qush()"><i class="fa-solid fa-cart-shopping"></i></button>
+                     <button onclick="yoz()"><i class="fa-regular fa-heart"></i></button>
+                     <p id="p4"></p>
+              </div>
+         </div>
+     </main>
+
+     <footer>
+
+     </footer>
+
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+     <script src="js/main.js"></script>
+</body>
+</html>

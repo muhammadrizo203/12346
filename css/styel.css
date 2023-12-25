@@ -1,0 +1,96 @@
+header{
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(251, 250, 250);
+}
+nav{
+    width: 100%;
+    height: 10vh;
+    display: inline-flex;
+}
+.navdiv{
+    width: 30%;
+    height: 10vh;
+    display: inline-flex;
+    justify-content: center;
+}
+.navdiv1{
+    width: 40%;
+    height: 10vh;
+
+}
+.navdiv2{
+    width: 30%;
+    height: 10vh;
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+#button{
+    background-color: #fbc100;
+    width: 100px;
+    height: 50px;
+    margin-left: 20px;
+}
+.input{
+    width: 100%;
+    height: 5vh;
+    margin-top: 7px;
+    margin-left: -20px;
+}
+.navdiv3{
+    margin-right: 30px;
+    margin-top: 10px;
+}
+.navdiv3>p{
+    margin-top: -0px;
+}
+main{   
+    width: 100%;
+    height: 70vh;
+    background-color: aqua;
+}
+.div{
+    width: 90%;
+    height: 5vh;
+     
+}
+.div2{
+    width: 100%;
+    height: 60vh;
+    background-color: chocolate;
+    display: inline-flex;
+}
+.div1{
+    width: 19%;
+    height: 60vh;
+    background-color: chartreuse;
+    margin-left: 13px;
+}
+.divnav4{
+    width: 70%;
+    height: 5vh;
+    background-color: rgb(175, 173, 197);
+    display: inline-flex;
+    align-items: center;
+    
+}
+#btn2{
+    display: inline-flex;
+    align-items: center;
+}
+.divnav4>ul{
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+
+    list-style: none;
+}
+.divnav4>ul>li>a{
+    text-decoration: none;
+    color: black;
+}
+.divnav4>ul>li:nth-child(2)>button{
+    width: 100%;
+}
